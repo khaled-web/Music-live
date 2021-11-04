@@ -1,0 +1,27 @@
+nav
+.....
+
+nav#nav.side-nav>
+
+	div.logo-container>
+
+		div.side-logo>
+
+			img
+
+		div.side-btn>
+
+			3*div.bar01..03
+
+	ul.side-nav-links>
+
+		li>music +
+
+		7*li>
+
+			a>
+
+				AwesomeIcone + 
+
+
+				span
