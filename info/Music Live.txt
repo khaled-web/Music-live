@@ -25,3 +25,48 @@ nav#nav.side-nav>
 
 
 				span
+
+...............................................................
+...............................................................
+...............................................................
+
+Top-Nav
+.......
+
+main>
+
+	nav.nav-top>
+
+		div.nav-btn>
+
+			3*div.bar01..03
+
+		div.chevron-icons>
+
+			2*a>
+
+				span>
+
+					AwesomeIcon
+
+		form>
+
+			input_type"search"#search +
+
+			a>
+
+				span>
+
+					AwesomeIcon
+
+		div.nav-img>
+
+			img +
+
+			h3 +
+
+		a>
+
+			span>
+
+				AwesomeIcon

@@ -25,10 +25,17 @@ eventListener();
 
 // jQuery-functionality
 $(document).ready(function () {
- //toggle button
+ //side btn
  $('.side-btn').click(function () {
   $('.side-nav-links').slideToggle(900);
   $('.side-btn').toggleClass('change');
+ })
+
+ // nav btn
+ $('.nav-btn').click(function () {
+  $('.side-nav').toggleClass('margin');
+  $('.nav-btn').toggleClass('change');
+  $('main').toggleClass('max-width');
  })
 
 })
