@@ -34,6 +34,7 @@ Variables
   --clr-red-3: #a72121;
   /* yellow primary color */
   --clr-yellow: #ffc914;
+  --clr-yellow-1: #f3c05a;
 
   /* cream primary color */
   --clr-cream: #eddea4;
@@ -331,7 +332,7 @@ main{
   flex: 1 0 auto;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 992px){
   .side-nav-links{
     display: block!important;
   }
@@ -361,6 +362,7 @@ main{
     display: flex;
     flex-direction: column;
     max-width: 80%!important;
+  
   }
 
   .logo-container{
@@ -380,6 +382,50 @@ main{
     padding: 0 1.25rem;
   }
 }
+
+/*
+=========
+song-list
+=========
+*/
+
+.song-list{
+  padding: 1.25rem;
+}
+
+.list-item{
+  margin: 1.25rem 0;
+  display: flex;
+  cursor: pointer;
+}
+
+.list-item-img img{
+  width: 10rem;
+  margin-right: 1.25rem;
+  border-radius: 1.25rem;
+}
+
+.list-item-icon span{
+  color: var(--clr-yellow-1);
+}
+
+.list-item-text h3{
+  text-transform: capitalize;
+  margin-bottom: .5rem;
+}
+
+.list-item-text h4{
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 568px){
+  .song-list-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
 
 
 

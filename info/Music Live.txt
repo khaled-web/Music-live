@@ -70,3 +70,31 @@ main>
 			span>
 
 				AwesomeIcon
+
+
+...............................................................
+...............................................................
+...............................................................
+
+song-list
+.........
+
+Notes:- song-list inside the main-section
+
+section.song-list>
+
+	div.song-list-center>
+
+		article.list-item>
+
+			div.list-item-img> img
+
+			div.list-item-text>
+
+				h3+
+
+				h4+
+
+				div.list-item-icon>
+
+					span> 5*AwesomIcon
