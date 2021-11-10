@@ -97,4 +97,33 @@ section.song-list>
 
 				div.list-item-icon>
 
+...............................................................
+...............................................................
+...............................................................
+
+songs-bar
+.........
+
+Notes:- songs-bar inside the main-section
+
+section.songs>
+
+	h1+
+
+	div.songs-center.owl-carousel.owl-theme>
+
+		8* article.song>
+
+			h3+
+
+			h4+
+
+			div.song-container>
+
+				img+
+
+				a.song-icon>AwesomeIcon
+
+
+
 					span> 5*AwesomIcon

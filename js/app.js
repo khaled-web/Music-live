@@ -38,4 +38,23 @@ $(document).ready(function () {
   $('main').toggleClass('max-width');
  })
 
+ // owl team
+ $('.songs-center').owlCarousel({
+  loop: true,
+  margin: 10,
+  smartSpeed: 1000,
+  nav: true,
+  responsive: {
+   0: {
+    items: 1
+   },
+   600: {
+    items: 3
+   },
+   1000: {
+    items: 4
+   }
+  }
+ })
+
 })
